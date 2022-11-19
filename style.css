@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main-container {
+    background-color: white;
+    height: 600px;
+    width: 800px;
+    border-radius: 2%;
+    position: absolute;
+    top: 350px;
+    left: 900px;
+}
+
+.header {
+    width: 30%;
+    position: relative;
+    left: 430px;
+    font-size: 40px;
+}
+
+.perfume {
+    position: relative;
+    left: 430px;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #393E46;
+}
+
+.paragraph {
+    width: 40%;
+    line-height: 1.6;
+    position: absolute;
+    left: 430px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #393E46;
+}
+
+.perfume-img {
+    width: 400px;
+    position: relative;
+    bottom: 254px;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+.btn {
+    background: hsl(158, 36%, 37%);
+    background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 14px 50px 14px 50px;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    top: 870px;
+    left: 1400px;
+  }
+  
+  .btn:hover {
+    background: #12471e;
+    text-decoration: none;
+  }
+
+  .new-price {
+    position: absolute;
+    color: hsl(158, 36%, 37%);
+    right: 208px;
+    bottom: 60px;
+    font-size: 50px;
+  }
+
+  .old-price {
+    position: absolute;
+    color: grey;
+    right: 100px;
+    bottom: 120px;
+    text-decoration-line: line-through;
+  }
